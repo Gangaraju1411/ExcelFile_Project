@@ -68,7 +68,7 @@ public class ExcelData {
 		FileOutputStream out = new FileOutputStream(file);
 		workbook.write(out);
 		out.close();
-		System.out.println("EmployeeData.xlsx written successfully!");
+		System.out.println("Excel file is created successfully!");
 
 	}
 }
